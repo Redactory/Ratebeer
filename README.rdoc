@@ -26,3 +26,9 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+
+
+          Web-palvelinohjelmointi (Ruby on Rails)
+
+HEROKU-instanssin osoite on: https://dashboard.heroku.com/apps/nameless-thicket-9966/resources 
