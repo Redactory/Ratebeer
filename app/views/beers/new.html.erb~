@@ -2,7 +2,6 @@
 
 <%= form_for(@beer) do |f| %>
   Name: <%= f.number_field :name %> <br>
-  Brewery: <%= f.number_field :brewery %> <br>
   Style: <%= f.select :style, options_for_select(@styles) %> <br>
   <%= f.submit %>
 <% end %>
