@@ -21,7 +21,7 @@
 <h2> Members: </h2>
     <% @beer_club.users.each do |member| %>
       <tr>
-        <td><%= member.name %></td>
+        <td><%= member.username %></td>
         <td><%= link_to 'Show', member %></td>
       </tr>
     <% end %>

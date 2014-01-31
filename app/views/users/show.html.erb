@@ -16,7 +16,7 @@
 	Person is member in following clubs:   
 	
 	<% @user.memberships.each do |membership| %>
-           <li> <%= membership %> <%= link_to rating.user.username, rating.user %> </li>
+           <li> <%= link_to membership, membership %> </li>
         <% end %>
 
 <% end %>

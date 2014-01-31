@@ -15,8 +15,8 @@
 	<% else %>
 	Person is member in following clubs:   
 	
-	<% memberships.each do |membership| %>
-           <li> <%= membership %> <%= link_to rating.user.username, rating.user %> </li>
+	<% @user.memberships.each do |membership| %>
+           <li> <%= link_to @user.membership, membership %> </li>
         <% end %>
 
 <% end %>
